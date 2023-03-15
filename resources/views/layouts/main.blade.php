@@ -9,7 +9,7 @@
 
     {{-- CDN Bulma --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>@yield('title')</title>
+    <title>@yield('judul')</title>
 </head>
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -31,7 +31,7 @@
         </div>
     </nav>
     <main class="is-flex container is-fluid">
-        @yield('main_content')
+        @yield('konten')
     </main>
     <footer>
         <div class="has-text-centered">

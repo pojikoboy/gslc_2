@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @endsection
 
-@section('title', 'Homepage')
+@section('judul', 'Homepage')
 
-@section('main_content')
+@section('konten')
     <div class="is-flex is-justify-content-space-between is-align-items-center container is-fluid">
         <div class="column is-flex is-flex-direction-column is-align-items-center is-justify-content-start mt-5" style="height: 100%;">
             <img class="member-pic" src="{{ asset('pics/rafi.jpg') }}" alt="">

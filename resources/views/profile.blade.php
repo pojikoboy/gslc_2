@@ -3,9 +3,9 @@
 @section('css')
     <link rel="stylesheet" href="{{ asset('css/profile.css') }}">
 @endsection
-@section('title', 'Profile')
+@section('judul', 'Profile')
 
-@section('main_content')
+@section('konten')
 <div class="is-flex is-justify-content-center my-6 content-wrapper" style="width: 100%">
     <div class="is-flex is-align-items-start mr-6 img-wrapper">
         <figure class="image is-128x128">
@@ -27,8 +27,6 @@
         </div>
         <div class="mb-2">
             <b><label for="">Hobby</label></b>
-            {{-- {{ gettype($data->hobby) }} --}}
-            {{-- {{ count($data->hobby) }} --}}
             @if($data->hobby != null && is_array($data->hobby))
                 <ul>
                     @foreach($data->hobby as $value)
